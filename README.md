@@ -8,7 +8,7 @@ Stoimchev, M., Kocev, D., Džeroski. S. Deep network architectures as feature ex
 <img id="photo1" style="height:256px;width:auto;" src="media/methodology.png" height="256" />
 
 ##  Table of Contents
-- [The Two-Path Architecture (TPA)](#TPA)
+- [The Two-Path Architecture (TPA)](#RSMLC)
     - [Installation](#installation)
     - [Training](#training)
     - [Testing](#testing)
