@@ -1,7 +1,7 @@
 # RSMLC
 
 This repository contains PyTorch implementation of the following paper: 
-Stoimchev, M., Kocev, D., Džeroski. S. Deep network architectures as feature extractors for multi-label classification of remote sensing images
+Stoimchev, M., Kocev, D., Džeroski. S., "Deep network architectures as feature extractors for multi-label classification of remote sensing images"
 
 # Methodology
 
