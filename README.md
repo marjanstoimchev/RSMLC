@@ -10,9 +10,7 @@ Stoimchev, M., Kocev, D., Džeroski. S. Deep network architectures as feature ex
 ##  Table of Contents
 - [The used methodology](#RSMLC)
     - [Installation](#installation)
-    - [Training](#training)
-    - [Testing](#testing)
-    - [Feature extraction](#extraction)
+    - [Train/Inference/Extraction](#training)
     - [Tree ensemble methods](#ensembles)
     - [Citing the paper](#citing)
     - [Reference](#reference)
@@ -44,7 +42,7 @@ Stoimchev, M., Kocev, D., Džeroski. S. Deep network architectures as feature ex
    ```
    pip install -r requirements.txt
    ```
-## Training
+## Train/Inference/Extraction
 To list the arguments, run the following command:
 ```
 python main.py -h
@@ -61,6 +59,12 @@ python main.py \
     --seed 42 \  
     --lr 1e-4 \ 
     --feature_type FineTune \
+```
+
+## Tree ensemble methods
+To start the tree ensemble methods, run the following command:
+```
+python inference_tree.py
 ```
 
 ### How to create the file structure for the RSMLC datasets
