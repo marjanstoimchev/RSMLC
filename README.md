@@ -36,7 +36,7 @@ Stoimchev, M., Kocev, D., Džeroski. S., "Deep network architectures as feature 
     ```
 3. Activate the virtual environment.
     ```
-    conda activate tpa
+    conda activate rsmlc
     ```
 3. Install the dependencies.
    ```
