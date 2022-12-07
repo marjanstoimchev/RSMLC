@@ -26,11 +26,12 @@ Stoimchev, M., Kocev, D., Džeroski. S. Deep network architectures as feature ex
 - Matplotlib
 - Albumentations 
 - scikit-learn
+- timm
 ## Installation
 1. First clone the repository
    ```
-   git clone https://github.com/Marjan1111/tpa-cnn.git
-   ```
+   git clone https://github.com/Marjan1111/RSMLC.git
+   ``` 
 2. Create the virtual environment via conda
     ```
     conda create -n tpa python=3.9
@@ -61,14 +62,6 @@ python main.py \
     --lr 1e-4 \ 
     --feature_type FineTune \
 ```
-
-## Testing
-To start the all-vs-all evaluation protocol, run the following command:
-
-```bat
-python test.py
-```
-
 
 ### How to create the file structure for the RSMLC datasets
 
