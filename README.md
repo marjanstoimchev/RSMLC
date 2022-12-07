@@ -8,11 +8,13 @@ Stoimchev, M., Kocev, D., Džeroski. S. Deep network architectures as feature ex
 <img id="photo1" style="height:256px;width:auto;" src="media/methodology.png" height="256" />
 
 ##  Table of Contents
-- [The Two-Path Architecture (TPA)](#RSMLC)
+- [The used methodology](#RSMLC)
     - [Installation](#installation)
     - [Training](#training)
     - [Testing](#testing)
-    - [Citing Two-Path Architecture](#citing-tpa)
+    - [Feature extraction](#extraction)
+    - [Tree ensemble methods](#ensembles)
+    - [Citing the paper](#citing)
     - [Reference](#reference)
 
 ## Dependencies
@@ -22,8 +24,7 @@ Stoimchev, M., Kocev, D., Džeroski. S. Deep network architectures as feature ex
 - Torchvision
 - Numpy
 - Matplotlib
-- Pillow / PIL
-- imgaug 
+- Albumentations 
 - scikit-learn
 ## Installation
 1. First clone the repository
@@ -48,22 +49,17 @@ To list the arguments, run the following command:
 python main.py -h
 ```
 
-### Example how to train on IITD dataset
+### Example how to execute the training, inference and feature extraction for the UCM dataset
 
 ```
 python main.py \     
-    --backbone Vgg \         
-    --data IITD \  # switch to: CASIA if you want to train on CASIA dataset      
-    --palm_train left \  # note: if you chose left forr train, chose right for palm_test, and vice versa.
-    --palm_test right \ 
-    --n_epochs 100 \  
-    --num_trainable 10 \ 
-    --metric_head arc_margin \ 
-    --patches [75, 1, 0, 30] \ 
-    --lr_centers 0.5 \ 
-    --alpha 0.001 \ 
-    --save_path saved_models \ 
-    --model_type Vgg_16 \ 
+    --dataset UCM \         
+    --mode True \      
+    --n_epochs 100 \
+    --batch_size 64 \ 
+    --seed 42 \  
+    --lr 1e-4 \ 
+    --feature_type FineTune \
 ```
 
 ## Testing
@@ -74,24 +70,33 @@ python test.py
 ```
 
 
-### How to create the file structure for IITD and CASIA datasets
+### How to create the file structure for the RSMLC datasets
 
 ```
-datasets
-├── IITD_ROI
-│   ├── Segmented
-│          ├── Left
-|          |   └── 001_1.bmp
-|          |   ...
-|          |   └── 230_5.bmp
-|          |
-│          ├── Right
-|              └── 001_1.bmp
-|              ...
-|              └── 230_5.bmp
+rs_datasets
+├── UCMerced_LandUse
+│   ├── Images
+|   ├── LandUseMultilabeled.txt
 |
-├── CASIA_ROI
-        └── 0001_m_l_01.jpg
-        ...
-        └── 0312_m_r_11.jpg
+├── Ankara
+|   ├── AnkaraHSIArchive
+|   ├── multilabel.txt
+|
+├── DFC_15
+|   ├── images_train
+|   ├── images_test
+|   ├── multilabel.txt
+|
+├── MLRSNet
+|   ├── Images
+|   ├── Labels
+|
+├── AID_Dataset
+|   ├── images
+|   ├── multilabel.txt
+|
+├── BEN_Dataset
+|   ├── images
+|   ├── multi_hot_labels_19.txt
+|   ├── multi_hot_labels_43.txt
 ```
