@@ -21,7 +21,6 @@ Stoimchev, M., Kocev, D., Džeroski. S., "Deep network architectures as feature 
 - PyTorch
 - Torchvision
 - Numpy
-- Matplotlib
 - Albumentations 
 - scikit-learn
 - timm
