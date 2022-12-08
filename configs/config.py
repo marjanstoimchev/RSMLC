@@ -100,8 +100,8 @@ class BaseConfig(object):
     num_workers = 4
     fold_num = 5
     seed = 42
-    #base_dir = '../rs_datasets/mlc'
-    base_dir = '../DeepLearningRS/rs_datasets'
+    base_dir = '../rs_datasets' # change this if you want to move the datasets in other directory than this
+    #base_dir = '../DeepLearningRS/rs_datasets'
     learning_rate = 1e-4 #1e-3
     gamma = 0.1
     weight_decay = 1e-6
