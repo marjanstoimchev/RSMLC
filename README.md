@@ -17,7 +17,7 @@ Stoimchev, M., Kocev, D., Džeroski. S., "Deep network architectures as feature 
 
 ##  Links to the used datasets
 - [Datasets](#RSMLC)
-    - [AID](#aid)
+    - [AID](https://github.com/Hua-YS/AID-Multilabel-Dataset)
     - [UCMercedLandUse](#ucm)
     - [AnkaraHSI](#ankara)
     - [MLRSNet](#mlrsnet)
