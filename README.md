@@ -24,6 +24,7 @@ Stoimchev, M., Kocev, D., Džeroski. S., "Deep network architectures as feature 
 - Albumentations 
 - scikit-learn
 - timm
+- iterative-stratification
 ## Installation
 1. First clone the repository
    ```
