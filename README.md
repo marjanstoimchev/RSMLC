@@ -15,6 +15,15 @@ Stoimchev, M., Kocev, D., Džeroski. S., "Deep network architectures as feature 
     - [Citing the paper](#citing)
     - [Reference](#reference)
 
+##  Links to the used datasets
+- [Datasets](#RSMLC)
+    - [AID](#aid)
+    - [UCMercedLandUse](#ucm)
+    - [AnkaraHSI](#ankara)
+    - [MLRSNet](#mlrsnet)
+    - [DFC-15](#dfc_15)
+    - [BigEarthNet](#ben)
+
 ## Dependencies
 
 - Python3
