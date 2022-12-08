@@ -18,11 +18,11 @@ Stoimchev, M., Kocev, D., Džeroski. S., "Deep network architectures as feature 
 ##  Links to the used datasets
 - [Datasets](#RSMLC)
     - [AID](https://github.com/Hua-YS/AID-Multilabel-Dataset)
-    - [UCMercedLandUse](#ucm)
-    - [AnkaraHSI](#ankara)
-    - [MLRSNet](#mlrsnet)
-    - [DFC-15](#dfc_15)
-    - [BigEarthNet](#ben)
+    - [UCMercedLandUse](https://bigearth.eu/datasets)
+    - [AnkaraHSI](https://bigearth.eu/datasets)
+    - [MLRSNet](https://github.com/cugbrs/MLRSNet)
+    - [DFC-15](https://github.com/Hua-YS/DFC15-Multilabel-Dataset)
+    - [BigEarthNet](https://bigearth.net/)
 
 ## Dependencies
 
