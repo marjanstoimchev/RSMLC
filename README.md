@@ -107,4 +107,3 @@ rs_datasets
 |   ├── multi_hot_labels_43.txt
 ```
 ## Citing the paper
-## Reference
