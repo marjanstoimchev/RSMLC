@@ -107,3 +107,19 @@ rs_datasets
 |   ├── multi_hot_labels_43.txt
 ```
 ## Citing the paper
+```bibtex
+@Article{rs15020538,
+AUTHOR = {Stoimchev, Marjan and Kocev, Dragi and Džeroski, Sašo},
+TITLE = {Deep Network Architectures as Feature Extractors for Multi-Label Classification of Remote Sensing Images},
+JOURNAL = {Remote Sensing},
+VOLUME = {15},
+YEAR = {2023},
+NUMBER = {2},
+ARTICLE-NUMBER = {538},
+URL = {https://www.mdpi.com/2072-4292/15/2/538},
+ISSN = {2072-4292},
+DOI = {10.3390/rs15020538}
+}
+```
+
+
